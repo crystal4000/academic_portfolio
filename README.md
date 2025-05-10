@@ -1,20 +1,21 @@
-# GitHub Template Repository
+# Academic Portfolio
 
-Welcome to the GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
+Welcome to the **Academic Portfolio** of Tania-Amanda Fredrick! This repository showcases my academic achievements, projects, and professional journey. It includes a personal website with details about my research, projects, and curriculum vitae.
 
 ---
 
 ## 📂 Repository Structure
-The template includes the following structure:
+The repository is organized as follows:
 
 ```
-📦create_website
- ┣ 📂files/         # Add your CV PDF inside this folder
- ┣ 📂images/        # Add your image inside this folder
- ┣ projects.html    # Update this file to add your own project details
- ┣ index.html       # Update this file for the main page of your portfolio
+📦academic_portfolio
+ ┣ 📂files/         # Contains the CV PDF
+ ┣ 📂images/        # Contains profile and logo images
+ ┣ index.html       # Main page of the portfolio
+ ┣ projects.html    # Detailed project descriptions
+ ┣ cv.html          # CV download page
+ ┣ test.html        # Testing page for layout and design
  ┣ 📜README.md      # Project instructions and information
- ┗ 📜LICENSE        # Licensing information
 ```
 
 ---
@@ -24,59 +25,35 @@ The template includes the following structure:
 ### 1. **Clone or Download This Repository**  
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/MaazAmjad/create_website.git
+git clone https://github.com/crystal4000/academic_portfolio.git
 ```
 Alternatively, download it as a ZIP file and extract it.
 
 ---
 
-### 2. **Update Your Information**  
-Make the following changes:
-- Replace placeholder information (e.g., `Your Name`, `Project Title`) with your details.
-- Add your project code and any required files in the respective folders.
+### 2. **View the Portfolio**  
+Open the `index.html` file in your browser to view the main page of the portfolio. Navigate through the links to explore projects, download the CV, and learn more about me.
 
 ---
 
-### 3. **Create Your GitHub Repository**  
-1. Log in to your GitHub account.  
-2. Create a new repository (**public** unless otherwise specified).  
-3. Copy the repository URL for use in the next step.
+### 3. **Customize the Content**  
+If you wish to adapt this portfolio for your own use:
+- Replace the placeholder information in `index.html`, `projects.html`, and `cv.html` with your details.
+- Update the images in the `images/` folder.
+- Replace the CV PDF in the `files/` folder.
 
 ---
 
-### 4. **Push Your Changes to Your Repository**  
-Run the following commands to upload your project to your new repository:
-
-```bash
-# Initialize a new Git repository
-git init
-
-# Stage all changes
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Set the main branch
-git branch -M main
-
-# Add the remote repository
-git remote add origin <your-repo-url>
-
-# Push changes to GitHub
-git push -u origin main
-```
+## 🌟 Features
+- **About Me**: Learn about my academic background, research interests, and professional journey.
+- **Projects**: Explore detailed descriptions of my key projects, including technologies and skills used.
+- **CV Download**: Access my latest curriculum vitae in PDF format.
 
 ---
 
-## 📝 Submission Instructions  
-Once you have pushed your work to GitHub, submit the repository link as per the instructions provided in the course.
+## 📝 License  
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-### ⚖️ License  
-This project template is licensed under the [MIT License](LICENSE).
-
----
-
-Celebrate and enjoy your coding experience! 🚀
+Thank you for visiting my portfolio! 🚀
